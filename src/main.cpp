@@ -1,6 +1,6 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Simple test passed!" << std::endl;
+    std::cout << "Test" << std::endl;
     return 0;
 }
