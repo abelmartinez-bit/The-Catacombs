@@ -1,8 +1,13 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
 
 int main()
 {
+    std::cout << "test1" << std::endl;
+    
     sf::RenderWindow window(sf::VideoMode({800, 600}), "The Catacombs");
+    
+    std::cout << "testbien" << std::endl;
 
     while (window.isOpen())
     {
@@ -14,7 +19,9 @@ int main()
 
         window.clear(sf::Color::Black);
         window.display();
+
     }
+
 
     return 0;
 }
