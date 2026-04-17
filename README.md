@@ -4,7 +4,7 @@ The Catacombs
 Videojuego roguelike dungeon-crawler desarrollado en C++ con interfaz grafica en SFML para la materia de Lenguajes de Programacion Orientada a Objetos - CETYS Universidad.
 
 Descripcion
-El jugador elige un personaje y atraviesa 5 pisos de mazmorras con combate por turnos. El juego combina mecánicas de elección de rutas y reliquias al estilo de Slay the Spire, con un sistema de estadísticas de combate inspirado en Pokemon (ATK, DEF, SP. ATK, SP. DEF, SPD, HP).
+El jugador elige un personaje y atraviesa 5 pisos de mazmorras con combate por turnos. El juego combina mecanicas de eleccion de rutas y reliquias al estilo de Slay the Spire, con un sistema de estadisticas de combate inspirado en Pokemon (ATK, DEF, SP. ATK, SP. DEF, SPD, HP).
 
 Carac. principales
 
