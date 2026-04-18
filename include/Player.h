@@ -12,7 +12,7 @@ private:
     //pointers ya que no podemos guardar objetos Relic directamente en el vector ya que no pueden exsistir
     // y asi apuntamos a objetos de clases hijas de Relic que implementen applyEffect
     std::vector<Relic*> relics;
-    int PotionSlots;
+    int potionSlots;
     std::vector<Potion> potions;
 
 public:
@@ -22,6 +22,7 @@ public:
     int getLevel() const;
     int getExp() const;
     int getExpToNextLevel() const;
+    int getPotionSlots() const;
     std::vector<Relic*> getRelics() const;
     std::vector<Potion> getPotions() const;
 
