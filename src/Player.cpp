@@ -24,8 +24,9 @@ void Player::levelUp() {
     exp -= expToNextLevel;
     expToNextLevel = 100 * level; // scales w level
 
-    // 5% heal al subir de nivel
-    int restore = maxHp * 0.05;
+    // 5% heal al subir de nivel (base), mas lo que den los relics. Tal vez sea aqui o en 
+    //un futuro GameEngine o algo asi
+   int restore = maxHp * 0.05;
     heal(restore);
 
     std::cout << name << " leveled up to level " << level << "!\n";
