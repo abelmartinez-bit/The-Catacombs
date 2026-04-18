@@ -32,6 +32,14 @@ public:
     bool getIsBlocking() const;
     std::vector<Move> getMoves() const;
 
+    // Setters
+    void setMaxHp(int amount);
+    void setAtk(int amount);
+    void setDef(int amount);
+    void setSpAtk(int amount);
+    void setSpDef(int amount);
+    void setSpd(int amount);
+
     // Acciones por ahora
     void takeDamage(int amount);
     void heal(int amount);

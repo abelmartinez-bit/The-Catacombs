@@ -1,3 +1,4 @@
+//include header diferente porq ocupamos mandarlo fuera de src y dentro de include
 #include "../include/Entity.h"
 #include <iostream>
 
@@ -17,6 +18,14 @@ int Entity::getSpDef() const { return spDef; }
 int Entity::getSpd() const { return spd; }
 bool Entity::getIsBlocking() const { return isBlocking; }
 std::vector<Move> Entity::getMoves() const { return moves; }
+
+//Setters
+void Entity::setMaxHp(int amount) { maxHp = amount; }
+void Entity::setAtk(int amount) { atk = amount; }
+void Entity::setDef(int amount) { def = amount; }
+void Entity::setSpAtk(int amount) { spAtk = amount; }
+void Entity::setSpDef(int amount) { spDef = amount; }
+void Entity::setSpd(int amount) { spd = amount; }
 
 // Actions
 void Entity::takeDamage(int amount) {

@@ -9,3 +9,11 @@ MoveEffect Move::getEffect() const { return effect; }
 MoveTarget Move::getTarget() const { return target; }
 int Move::getPower() const { return power; }
 int Move::getAccuracy() const { return accuracy; }
+
+void Move::boostPower(int amount) {
+    power += amount;
+}
+void Move::addAccuracy(int amount) {
+    accuracy += amount;
+    if (accuracy > 100) accuracy = 100; //100% cap
+}

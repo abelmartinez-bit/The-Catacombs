@@ -51,4 +51,7 @@ public:
     MoveTarget getTarget() const;
     int getPower() const;
     int getAccuracy() const;
+
+    void boostPower(int amount);
+    void addAccuracy(int amount);
 };
